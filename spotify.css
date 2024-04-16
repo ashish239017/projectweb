@@ -26,7 +26,7 @@ body{
     overflow: auto;
     width: 100%;
     margin-right: 0.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 5.5rem;
     padding: 0 1.5rem 0 1.5rem;
     /* height: 635px; */
     margin-top: 6px;
@@ -86,7 +86,7 @@ a{
     /* height: 100PX; */
     margin: 0.75rem;
     padding: 0.5rem 0.75rem;
-    height: 490px;
+    /* height: 490px; */
     margin-bottom: 1.5rem;
 }
 .option{
@@ -356,8 +356,11 @@ a{
 .he{
     background-color:rgba(93, 140, 227,1) ;
     /* border: 2px solid red; */
-    padding: 50px;
+    padding: 100px;
     border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 5.5rem;
 }
 .he>button{
     height: 50px;
@@ -365,4 +368,16 @@ a{
     border-radius: 15px;
     font-weight: bold;
     margin-left: 20px;
+}
+.he>ul{
+    font-size: larger;
+}
+.indi{
+    padding: 30px;
+}
+.indi>button{
+    margin-top: 40px;
+}
+.mini{
+    padding: 30px;
 }
